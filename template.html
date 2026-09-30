@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+<title>dayshare</title>
+<meta name="theme-color" content="#ffffff" />
+<meta name="description" content="가족과 친구의 일정을 한 화면에서 보는 공유 캘린더" />
+<!-- iOS에서 '홈 화면에 추가'하면 주소창 없이 앱처럼 열린다 -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="dayshare" />
+<meta name="mobile-web-app-capable" content="yes" />
+<!-- 홈 화면 아이콘. 실제 이미지 파일이어야 해서 HTML에 넣지 않고 따로 둔다. -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+<link rel="manifest" href="/manifest.webmanifest" />
+<style>
+  html, body { margin: 0; padding: 0; background: #fff; }
+  body {
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  #boot {
+    font-family: -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+    color: #AFAFAF; font-size: 14px; padding: 48px 24px; text-align: center;
+  }
+</style>
+</head>
+<body>
+<div id="root"><div id="boot">불러오는 중…</div></div>
+<script>
+%%BUNDLE%%
+</script>
+</body>
+</html>
