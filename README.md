@@ -10,7 +10,7 @@
 | `template.html` | HTML 껍데기 (메타 태그 등) | 가끔 |
 | `supabase/setup.sql` | 처음 설치용 SQL (기존 테이블을 지운다) | 구조 변경 시 |
 | `supabase/migration_*.sql` | 쓰고 있는 DB를 올리는 SQL (데이터 유지) | 구조 변경 시 |
-| `docs/설계서_v3.1.md` | 설계서 | ✅ |
+| `docs/설계서.md` | 설계서 | ✅ |
 | `site/` | 아이콘/매니페스트 등 정적 파일 | 아이콘 교체 시 |
 | `dist/` | **배포용 폴더** | ❌ 빌드로만 생성 |
 | `test/` | 자동 테스트 | |
